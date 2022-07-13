@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    <table>
+    <table border="1">
 <?php
 $number = 10;
         for($row = 1; $row <= $number; $row++) {
