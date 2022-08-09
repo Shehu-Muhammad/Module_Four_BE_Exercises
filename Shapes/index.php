@@ -93,7 +93,13 @@ function star() {
         for($row = 0; $row <= 5; $row++) {
             echo("<br>");
             if($row == 1 || $row == 5) {
-                echo("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                // echo("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                echo("start");
+                echo("<pre>");
+                echo(" "." ");
+                echo("</pre>");
+                // echo("  ");
+                echo("end");
                 echo("*");
             } else if($row == 2 || $row == 4) {
                 echo("&nbsp; * * * ");
@@ -112,5 +118,5 @@ echo("<br>");
 stairs();
 star();
 
-
+echo( "<pre>start" . "       " . "        " . "end</pre>" );
 ?>
