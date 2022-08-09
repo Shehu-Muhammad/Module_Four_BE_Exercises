@@ -103,6 +103,13 @@ function star() {
     }
 }
 
+
+rightTriangle();
+echo("<br>");
+upsideDownRightTriangele();
+lineTopLeftToBottomRight();
+echo("<br>");
+stairs();
 star();
 
 
